@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">QuickSesame</string>
+    <string name="title">Scan</string>
+    <string name="scan_tip">Place the code within the frame</string>
+    <string name="no_code_tip">No code detected.</string>
+    <string name="confirm">OK</string>
+    <string name="light">Touch for more light</string>
+    <string name="light_off">Turn off light</string>
+    <string name="default_view_decoe">Default View Mode</string>
+    <string name="photo_decode">Decode Photo</string>
+    <string name="customized_view_decode">Customized View Mode</string>
+    <string name="bitmap_api_decode">Bitmap Mode</string>
+    <string name="multiProcessor_api_syn_decode">MultiProcessor API Synchronous Mode</string>
+    <string name="multiProcessor_api_asyn_decode">MultiProcessor API Asynchronous Mode</string>
+    <string name="generate_QR_code">Generate QR Code</string>
+    <string name="barcode_width">Barcode width:</string>
+    <string name="barcode_height">Barcode height:</string>
+    <string name="barcode_type">Type:</string>
+    <string name="barcode_color">Color:</string>
+    <string name="barcode_backgroundcolor">Background:</string>
+    <string name="barcode_margin">Margin:</string>
+    <string name="width_value">700</string>
+    <string name="height_value">700</string>
+    <string name="generate_barcode">Generate Barcode</string>
+    <string name="save_barcode">Save Barcode</string>
+    <string name="barcode_content">Barcode Content:</string>
+    <string name="content_detail">HUAWEI Scan Kit scans and parses all major 1D and 2D barcodes, helping you quickly build barcode scanning functions into your apps.</string>
+    <string name="content_detailb">MultiCodeDecoder：Decode Multi Codes</string>
+    <string name="title_result">Result</string>
+    <string name="code_format">Code Format</string>
+    <string name="result_type">Result Type</string>
+    <string name="result_content">Result</string>
+    <string name="copy">Copy</string>
+    <string name="saved_info" translatable="false">savedInfo</string>
+    <string name="saved_api_key" translatable="false">savedAPIKey</string>
+    <string name="sesame_info_title">Sesame共享钥匙信息</string>
+    <string name="sesame_device_name">设备名称</string>
+    <string name="sesame_device_uuid">设备UUID</string>
+    <string name="sesame_api_key">APIKey</string>
+    <string name="test_and_save">测试并保存</string>
+    <string name="app_description_value">官方App需要在开启App读取NFCTag才能开锁。（都打开App了，还差点一下按钮吗）如果使用NFCTag启动App则需要两次读取Tag才能开锁。并有等待间隔。本软件目的在于简化操作，实现仅一次触碰Tag即达到开关锁的效果。\n
+使用方法:\n
+1.点击添加按钮（+）扫描你的sesame（芝麻智能锁）的分享二维码，来添加智能锁设备以及密钥信息。\n
+2.登录Sesame Dashboard（https://partners.candyhouse.co/）获取你的APIKey。\n
+3.输入你的APIKey测试门锁开关，成功后会自动保存数据。\n
+4.本App本非真正读取NFC后执行解锁，这样需要常驻后台。因为手机系统限制通常NFC不能在锁屏下工作，所以通过简单的NFCTag启动App的方式开关锁。通过NFC读写软件写入本App的启动应用包名com.giko.quicksesame即可（推荐使用NFC TagWriter by NXP）。本软件会识别是否通过桌面启动，通过桌面图标启动，或者没有设备设置信息时不会执行开锁，自动进入设置界面。</string>
+    <string name="apikey_placeholder">请输入从sesame console获取的api key</string>
+    <string name="no_value">未设定</string>
+    <string name="quick_sesame">Quick Sesame 4 NFC tag trigger</string>
+    <string name="request_success">请求成功</string>
+    <string name="setting_shortcut_short_label">设定</string>
+    <string name="setting_shortcut_long_label">设定页面</string>
+    <string name="action_copy_package_name">复制package</string>
+    <string name="action_close_app">退出</string>
+</resources>

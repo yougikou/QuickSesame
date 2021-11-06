@@ -1,0 +1,19 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/setting"
+        android:shortcutShortLabel="@string/setting_shortcut_short_label"
+        android:shortcutLongLabel="@string/setting_shortcut_long_label">
+        <intent
+            android:action="android.intent.action.SETTING"
+            android:targetPackage="com.giko.quicksesame"
+            android:targetClass="com.giko.quicksesame.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

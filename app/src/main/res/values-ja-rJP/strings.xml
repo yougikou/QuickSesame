@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuickSesame</string>
+    <string name="sesame_device_name">設備名前</string>
+    <string name="sesame_device_uuid">設備UUID</string>
+    <string name="test_and_save">テスト及び保存</string>
+    <string name="apikey_placeholder">Sesame DashboardからAPI Keyを取得ください</string>
+    <string name="no_value">未設定</string>
+    <string name="action_copy_package_name">パッケージ名をコピー</string>
+    <string name="action_close_app">終了</string>
+    <string name="sesame_info_title">Sesame共有QR情報</string>
+    <string name="quick_sesame">Quick Sesame 4 NFC tag trigger</string>
+    <string name="request_success">リクエスト成功</string>
+    <string name="setting_shortcut_short_label">設定</string>
+    <string name="setting_shortcut_long_label">設定画面</string>
+    <string name="app_description_value">公式アプリは、NFCTagを読み取る前にアプリを開いく必要があります。 （すべてアプリを開きましたので、ボタン押すことに比べ、Tagスキャンの意味あるの？）NFCTagを使用してアプリを起動する場合は、タグを2回読み取る必要があります。その間待機間隔があります。このAppの目的は、操作を簡素化し、タグのワンタッチのみでロック／アンロックすることを実現しました。 \n
+使用方法：\n
+1.追加ボタン（+）をクリックして、セサミの共有QRコードをスキャンし、スマートロック設備とSecretキー情報を保存します。 \n
+2.Sesame Dashboard（https://partners.candyhouse.co/）にログインして、APIKeyを取得します。 \n
+3.APIKeyを入力してドアロックスイッチをテストします。成功すると、データが自動的に保存されます。 \n
+4.一度設定を保存しましたら、Appアイコンでアプリ起動でロック／アンロック操作になります。Appアイコン自体が鍵になります。設定必要の場合、長押しのサブメニューの設定項から設定画面を開きます。そのため、NFCTagは単にこのアプリの起動トリガーとなります。同じ理由で、バックグラウンドに常駐する必要がありません。但し、IOS／AndroidはNFCを制限しているため、通常はロック画面ではNFC機能しません。NFC読み書きツールを使用して、このアプリのパッケージ名com.giko.quicksesameをNFCTagに書き込みます（NXPのNFC TagWriterをお勧めします）。</string>
+    <string name="sesame_api_key">APIKey</string>
+    <string name="title">スキャン</string>
+    <string name="scan_tip">フレーム内にコードを配置します</string>
+    <string name="no_code_tip">コードが検出されませんでした。</string>
+    <string name="confirm">OK</string>
+    <string name="light">より明るくするためにタッチ</string>
+    <string name="light_off">ライトをOFFに</string>
+    <string name="default_view_decoe">デフォルト表示モード</string>
+    <string name="photo_decode">写真をデコードする</string>
+    <string name="customized_view_decode">カスタマイズ表示モード</string>
+    <string name="bitmap_api_decode">ビットマップモード</string>
+    <string name="multiProcessor_api_syn_decode">マルチプロセッサAPI同期モード</string>
+    <string name="multiProcessor_api_asyn_decode">マルチプロセッサAPI非同期モード</string>
+    <string name="generate_QR_code">QRコードを生成する</string>
+    <string name="barcode_width">バーコード幅：</string>
+    <string name="barcode_height">バーコードの高さ：</string>
+    <string name="barcode_type">タイプ：</string>
+    <string name="barcode_color">色：</string>
+    <string name="barcode_backgroundcolor">バックグラウンド：</string>
+    <string name="barcode_margin">マージン：</string>
+    <string name="width_value">700</string>
+    <string name="height_value">700</string>
+    <string name="generate_barcode">バーコードを生成する</string>
+    <string name="save_barcode">バーコードを保存</string>
+    <string name="barcode_content">バーコードコンテンツ：</string>
+    <string name="content_detail">HUAWEI Scan Kitは、すべての主要な1Dおよび2Dバーコードをスキャンして解析し、バーコードスキャン機能をアプリにすばやく組み込むのに役立ちます。</string>
+    <string name="content_detailb">MultiCodeDecoder：マルチコードをデコードする</string>
+    <string name="title_result">結果</string>
+    <string name="code_format">コードフォーマット</string>
+    <string name="result_type">結果タイプ</string>
+    <string name="result_content">結果</string>
+    <string name="copy">コピー</string>
+</resources>
